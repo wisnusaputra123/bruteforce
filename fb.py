@@ -1,5 +1,3 @@
-os.system('clear')
-
 import requests
 import threading
 # import urllib.request
