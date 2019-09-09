@@ -1,29 +1,4 @@
 os.system('clear')
-##### Login
-import time
-import os
-
-def username():
-    def user1():
-        user = raw_input("Username : ")
-        if user == "wisnu":
-            time.sleep(1)
-            password = raw_input("Password : ")
-            if password == "awwcrott":
-                time.sleep(2)
-                print "Sukses Login"
-                time.sleep(1)
-            else:
-                time.sleep(2)
-                print "Gagal Login"
-                username()
-        else:
-            time.sleep(2)
-            print "Username Salah! --Mengulang"
-            username()
-    user1()
-username()
-os.system('clear')
 
 import time
 import sys
