@@ -1,4 +1,5 @@
-###### Login
+os.system('clear')
+##### Login
 import time
 import os
 figlet login
