@@ -2,7 +2,7 @@ os.system('clear')
 ##### Login
 import time
 import os
-figlet login
+
 def username():
     def user1():
         user = raw_input("Username : ")
